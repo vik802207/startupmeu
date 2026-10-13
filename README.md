@@ -21,6 +21,11 @@ Startups need fast, collaborative, and data-driven hiring workflows. TalentFlow 
 
 ---
 
+##Screenshot
+![Alt text](https://github.com/vik802207/car-bike-rental-app/blob/main/img/Screenshot%20(645).png?raw=true)
+
+---
+
 ## ✨ Key Features
 
 1. **Interactive Kanban Recruitment Pipeline**:
