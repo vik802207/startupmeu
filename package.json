@@ -1,0 +1,29 @@
+{
+  "name": "talentflow",
+  "version": "1.0.0",
+  "description": "TalentFlow — Fullstack MERN Applicant Tracking System for StartupMeu Assessment",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server/src/server.js",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "code0",
+    "startupmeu",
+    "ats"
+  ],
+  "author": "Candidate",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
